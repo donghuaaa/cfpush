@@ -2,10 +2,10 @@ name: Run Telegram Bot
 
 on:
 
-  workflow_dispatch:
+  #workflow_dispatch:
 
-  schedule:
-    - cron: '0 0 * * *'  # Menjalankan setiap hari pada tengah malam UTC
+  #schedule:
+    #- cron: '0 0 * * *'  # Menjalankan setiap hari pada tengah malam UTC
 
 jobs:
   run-bot:
